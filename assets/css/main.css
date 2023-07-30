@@ -2439,6 +2439,33 @@ input, select, textarea {
 
 /* Button */
 
+			@media (min-width:1200px) {
+				.tiles article.style1 > .image:before {
+					background-color: #f2849e;
+				}
+	
+				.tiles article.style2 > .image:before {
+					background-color: #7ecaf6;
+				}
+	
+				.tiles article.style3 > .image:before {
+					background-color: #7bd0c1;
+				}
+	
+				.tiles article.style4 > .image:before {
+					background-color: #c75b9b;
+				}
+	
+				.tiles article.style5 > .image:before {
+					background-color: #ae85ca;
+				}
+	
+				.tiles article.style6 > .image:before {
+					background-color: #8499e7;
+				}
+				
+			}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2705,29 +2732,6 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
-			}
-
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
-
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
-			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
